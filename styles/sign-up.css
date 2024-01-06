@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.form-section{
+    border: 5px solid green;
+}
+.outline{
+    border: 2px solid  #E3E3E4;
+    height: 1px;
+    
+}
+.btn-border{
+    border: 5px solid red !important;
+}
+.product-img{
+    height: 100%;
+    width: 100%;
+}

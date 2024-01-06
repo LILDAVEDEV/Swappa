@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    list-style-type: none ;
+    text-decoration: none !important;
+}
+.col-md-4{
+    border: 5px solid green;
+}
+.col-md-8{
+    border: 5px solid red;
+}
+.list-item{
+    /* border: 5px solid black; */
+}
+.list-item a{
+    /* border: 5px solid purple; */
+}
