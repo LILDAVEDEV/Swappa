@@ -112,8 +112,9 @@
 
     })
 
-    googlebtn.addEventListener('submit', async(goggle)=>{
+    googlebtn.addEventListener('click', async(goggle)=>{
     google.preventDefault()
+    console.log(google);
     try {
     const provider = await new GoogleAuthProvider();
     const redirect = await signInWithRedirect(auth, provider);
